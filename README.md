@@ -14,6 +14,7 @@ By default it will only work for words seperated by a `" "`. If you want to chan
 for word in words.split(" "):
 ```
 For example, in order to filter between ',' you can change it to this:
-```
-for word in words.split(","):
+```diff
+- for word in words.split(" "):
++ for word in words.split(","):
 ```
