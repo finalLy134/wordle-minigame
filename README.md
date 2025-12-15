@@ -7,6 +7,10 @@ A simple and fun wordle minigame made using Python.
 - Ensure you have [Python 3+](https://www.python.org/downloads/) installed
 - Open `start.bat` and enjoy.
 
+## Preview
+
+<img width="437" height="192" alt="preview-wordle" src="https://github.com/user-attachments/assets/18db0932-bbd7-4a9b-b683-69b51f2c4911" />
+
 ## Adding more words
 If you have a list of words seperated by something and you want to generate them into the `words.txt` correctly, you can run the `generate.bat` and enter that list of words.
 By default it will only work for words seperated by a `" "`. If you want to change the filter navigate into `generate.py` with your favorite text editor and change this line to match for your filter:
