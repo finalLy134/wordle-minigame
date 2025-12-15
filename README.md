@@ -9,7 +9,7 @@ A simple and fun wordle minigame made using Python.
 
 ## Adding more words
 If you have a list of words seperated by something and you want to generate them into the `words.txt` correctly, you can run the `generate.bat` and enter that list of words.
-By default it will only work for words seperated by `Space - " "`. If you want to change the filter navigate into `generate.py` with your favorite text editor and change this line to match for your filter:
+By default it will only work for words seperated by a `" "`. If you want to change the filter navigate into `generate.py` with your favorite text editor and change this line to match for your filter:
 ```
 for word in words.split(" "):
 ```
